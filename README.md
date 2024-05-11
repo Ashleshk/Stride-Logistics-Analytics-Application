@@ -53,6 +53,8 @@ The Stride logistics industry faces challenges in optimizing operational efficie
 
 > Link - *Working on it, please keep reading*
 > Demo Recording : 
+https://github.com/Ashleshk/Stride-Logistics-Analytics-Application/blob/main/DemoVideo.mp4
+
 
 # Results
 ## Exploratory Data Analysis
@@ -122,7 +124,7 @@ The majority of products fall into "dcat1" with varied delivery results.
 4. Questions will be answered by selecting the right model.
 5. Recommendations will be displayed depending on the accuracy.
 
-> Hope you watched [**Demo Video**](/DemoVideo.mp4)
+> Hope you watched [**Demo Video**](https://github.com/Ashleshk/Stride-Logistics-Analytics-Application/blob/main/DemoVideo.mp4)
 > 
 >
 > Business then take a notch ahead my making insightful Dashboard as below
