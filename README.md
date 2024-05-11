@@ -122,12 +122,12 @@ The majority of products fall into "dcat1" with varied delivery results.
 4. Questions will be answered by selecting the right model.
 5. Recommendations will be displayed depending on the accuracy.
 
-> Hope you watched [**Demo Video**]()
+> Hope you watched [**Demo Video**](/DemoVideo.mp4)
 > 
 >
 > Business then take a notch ahead my making insightful Dashboard as below
 >
-> ![Tableau Dashboard](https://public.tableau.com/app/profile/ashlesh2213/viz/LogisticStrideAnalysis/LogisticsStrideAnalysis)
+> [Tableau Dashboard](https://public.tableau.com/app/profile/ashlesh2213/viz/LogisticStrideAnalysis/LogisticsStrideAnalysis)
 
 ![Dashboard](/image/dashboard.png)
 ## Conclusion
