@@ -52,7 +52,10 @@ The Stride logistics industry faces challenges in optimizing operational efficie
 ## Live WebApp on Wix
 
 > Link - *Working on it, please keep reading*
-> Demo Recording : 
+>
+
+**Demo Recording** : 
+
 https://github.com/Ashleshk/Stride-Logistics-Analytics-Application/blob/main/DemoVideo.mp4
 
 
