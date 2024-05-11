@@ -123,7 +123,13 @@ The majority of products fall into "dcat1" with varied delivery results.
 5. Recommendations will be displayed depending on the accuracy.
 
 > Hope you watched [**Demo Video**]()
+> 
+>
+> Business then take a notch ahead my making insightful Dashboard as below
+>
+> ![Tableau Dashboard](https://public.tableau.com/app/profile/ashlesh2213/viz/LogisticStrideAnalysis/LogisticsStrideAnalysis)
 
+![Dashboard](/image/dashboard.png)
 ## Conclusion
 A Stride Logistics Analysis project has been successfully completed, providing valuable insights to enhance Stride Logistics. By analyzing data, we answered crucial questions about delivery, customer satisfaction, and queries, offering practical recommendations that improved operations. 
 
