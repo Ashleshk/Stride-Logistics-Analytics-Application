@@ -7,8 +7,11 @@ A global e-commerce company aims to extract insights from consumer data by lever
  
  **BUSINESS GOALs Accomplishing : Optimizing Logistics Efficiency**
 
-> Analyze Stride Logistics' shipment data using advanced analytics tools.
-> Provide valuable insights and data-driven decision-making support.
-> Improve operational efficiency and reduce costs in logistics operations.
-> Enhance customer satisfaction through data-driven optimizations.
+> 1. Analyze Stride Logistics' shipment data using advanced analytics tools.
+> 
+> 2. Provide valuable insights and data-driven decision-making support.
+> 
+> 3. Improve operational efficiency and reduce costs in logistics operations.
+> 
+> 4. Enhance customer satisfaction through data-driven optimizations.
 
