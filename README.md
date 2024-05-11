@@ -46,3 +46,86 @@ The Stride logistics industry faces challenges in optimizing operational efficie
 - Users can upload an Excel sheet containing their data to the app.
 - The application will perform analytical and machine learning operations on the uploaded sheet.
 - Provide insights through exploratory data analysis, machine learning model results, accuracy measures, and business recommendations for current and future scenarios.
+
+
+
+## Live WebApp on Wix
+
+> Link - *Working on it, please keep reading*
+> Demo Recording : 
+
+# Results
+## Exploratory Data Analysis
+### Numerical Columns:
+Prior Purchases and Discount Offered columns have minor skewness.
+Cost of the Product column follows an almost normal distribution.
+Customer ratings and customer care calls have a balanced distribution.
+Weight in grams follows a u-shaped uncertain distribution.
+Reached on Time column has a binary distribution.
+### Categorical Columns:
+Deliveries for Warehouse Block F have the highest number not delivered on time.
+Shipments made by ships tend to run late.
+Delivery delays are common for products with low and medium importance.
+Female and male customers show similar delivery behavior.
+### Bivariate Analysis:
+Mode of Shipment:
+Ship mode has the highest number of products not delivered on time.
+Product Importance:
+Deliveries are not on time for products of all importance levels, particularly high and low importance.
+Warehouse Block:
+Warehouse Block F has the highest number of products not delivered on time.
+Weight Category:
+Deliveries are generally on time for all weight categories except "wcat6" and "wcat7."
+Discount Category:
+The majority of products fall into "dcat1" with varied delivery results.
+
+## Feature Engineering ( Introduced Total 20 features)
+- Mode_of_Shipment_encoded: Encoded values of the "Mode_of_Shipment" column, mapping "Ship" to 1, "Flight" to 2, and "Road" to 3.
+- Customer_rating_category: Categorization of customer ratings into 'VeryLow', 'Low', 'Average', 'Standard', and 'High' for analysis.
+- Prior_purchases_category: Categorization of prior purchases into 'Very Low', 'Low', 'Medium', and 'High' to assess the impact of customer engagement.
+- Product_importance_category: Retention of original product importance categories for analysis.
+- Gender_encoded: Encoding of gender into numerical values (0 for Female, 1 for Male).
+- Interaction_CustomerRating_Discount: Interaction between customer rating and discount offered.
+- Interaction_CustomerCalls_Rating: Interaction between customer care calls and customer rating.
+- Shipping_speed: Calculation of shipping speed based on product weight and customer care calls.
+- Total_interactions: Sum of customer care calls and prior purchases to measure customer engagement.
+- Expected_delivery_time: Calculation of expected delivery time based on mode of shipment.
+- Product_importance_avg_delivery: Calculation of average delivery performance for each product importance category.
+- ShippingMode_avg_delivery: Calculation of average delivery performance for each shipping mode.
+- Interaction_Weight_Discount: Interaction between product weight and discount offered.
+- High_product_importance_and_high_rating: Identification of high product importance with customer rating 5.
+- Weight_category: Categorization of product weights into 'Light', 'Medium', and 'Heavy'.
+- Discount_category: Categorization of discount percentages into 'Low', 'Medium', and 'High'.
+- Product_Value: Calculation of product value based on cost and weight.
+- Customer_Loyalty: Categorization of customer prior purchases into 'New', 'Regular', and 'Frequent'.
+- Customer_Satisfaction_Score: Calculation of average score of customer rating and delivery time.
+- Delivery_Time_per_Weight: Calculation of delivery time per weight of the product.
+
+![feature correlation](/image/Feature.png)
+
+## Machine Learning model
+
+- Naive Bayes: A probabilistic classification algorithm based on Bayes' theorem, commonly used for text classification and problems with high-dimensional feature spaces.
+- Logistic Regression: A widely used classification algorithm for binary classification problems, modeling the probability of a binary outcome by fitting a logistic function to input features.
+- K-Nearest Neighbours (KNN): A non-parametric classification algorithm that classifies data points based on the majority class of their K nearest neighbors. Suitable for small to medium-sized datasets.
+- Support Vector Machine (SVM): A powerful classification algorithm that finds an optimal hyperplane to separate data points of different classes, effective in high-dimensional spaces.
+- Decision Tree: A tree-based classification algorithm that recursively splits the dataset based on features to create a tree-like structure. Prone to overfitting on deep trees.
+- Random Forest: An ensemble learning method that builds multiple decision trees and combines their predictions for more accurate results. Reduces overfitting.
+- XGBOOST (Extreme Gradient Boosting): A gradient boosting algorithm known for its high performance and efficiency, which optimizes a loss function to improve prediction accuracy.
+
+![ML]( /image/ml.png)
+
+## Final result
+1. Upload the csv
+2. All data related operations will be performed including data preprocessing and ML.
+3. Dashboard will be created with top features and model accuracy will be displayed
+4. Questions will be answered by selecting the right model.
+5. Recommendations will be displayed depending on the accuracy.
+
+> Hope you watched [**Demo Video**]()
+
+## Conclusion
+A Stride Logistics Analysis project has been successfully completed, providing valuable insights to enhance Stride Logistics. By analyzing data, we answered crucial questions about delivery, customer satisfaction, and queries, offering practical recommendations that improved operations. 
+
+Hope you Like. Drop **Star**!! 
+Follow me on [Linkedin](https://www.linkedin.com/in/ashleshk/) 
